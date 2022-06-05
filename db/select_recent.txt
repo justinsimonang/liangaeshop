@@ -1,0 +1,3 @@
+Select * FROM test_table WHERE user_id = value AND 
+   date_added = (select max(date_added) from test_table 
+   where user_id = value);

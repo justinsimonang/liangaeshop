@@ -1,0 +1,3 @@
+INSERT INTO users VALUES('adm-001', 'admin', 'admin', 'admin', NOW());
+
+INSERT INTO count VALUES(0,0,0,0,0,0,0,0,0,0,0,0);
